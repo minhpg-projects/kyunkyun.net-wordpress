@@ -1,0 +1,426 @@
+    /*
+     *
+     * login-register modal
+     * Autor: Creative Tim
+     * Web-autor: creative.tim
+     * Web script: http://creative-tim.com
+     *
+     */
+
+    /*  Shake animation  */
+
+
+    .animated {
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+
+    .animated.hinges {
+        -webkit-animation-duration: 2s;
+        -moz-animation-duration: 2s;
+        -o-animation-duration: 2s;
+        animation-duration: 2s;
+    }
+
+    .animated.slow {
+        -webkit-animation-duration: 3s;
+        -moz-animation-duration: 3s;
+        -o-animation-duration: 3s;
+        animation-duration: 3s;
+    }
+
+    .animated.snail {
+        -webkit-animation-duration: 4s;
+        -moz-animation-duration: 4s;
+        -o-animation-duration: 4s;
+        animation-duration: 4s;
+    }
+
+    @-webkit-keyframes shake {
+        0%, 100% {-webkit-transform: translateX(0);}
+        10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-10px);}
+        20%, 40%, 60%, 80% {-webkit-transform: translateX(10px);}
+    }
+
+    @-moz-keyframes shake {
+        0%, 100% {-moz-transform: translateX(0);}
+        10%, 30%, 50%, 70%, 90% {-moz-transform: translateX(-10px);}
+        20%, 40%, 60%, 80% {-moz-transform: translateX(10px);}
+    }
+
+    @-o-keyframes shake {
+        0%, 100% {-o-transform: translateX(0);}
+        10%, 30%, 50%, 70%, 90% {-o-transform: translateX(-10px);}
+        20%, 40%, 60%, 80% {-o-transform: translateX(10px);}
+    }
+
+    @keyframes shake {
+        0%, 100% {transform: translateX(0);}
+        10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
+        20%, 40%, 60%, 80% {transform: translateX(10px);}
+    }
+
+    .shake {
+        -webkit-animation-name: shake;
+        -moz-animation-name: shake;
+        -o-animation-name: shake;
+        animation-name: shake;
+    }
+    @media only screen and (min-width: 991px){
+
+        .login .modal-dialog {
+            width: 365px;
+        }
+    }
+
+    .login .modal-footer{
+        padding: 15px;
+    }
+    .login .modal-header {
+        padding: 15px 20px;
+    }
+    .login .modal-header .modal-title {
+    color: #333;
+    font-weight: 700;
+    }
+    .login .modal-body{
+        padding: 30px;
+        display: block;
+    }
+    .login .division {
+        float: none;
+        margin: 10px auto 18px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+    .login .division .line {
+        border-top: 1px solid #DFDFDF;
+        position: absolute;
+        top: 14px;
+        width: 42%;
+    }
+    .login .division .line.l {
+        left: 0;
+    }
+    .login .division .line.r {
+        right: 0;
+    }
+    .login .division span {
+        color: #424242;
+        font-size: 17px;
+    }
+    .login .social {
+        float: none;
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+
+    .login .social .circle{
+        background-color: #EEEEEE;
+        color: #FFFFFF;
+        border-radius: 100px;
+        display: inline-block;
+        margin: 0 17px;
+        padding: 15px 16px;
+        opacity: 1;
+    }
+    .login .social .circle .fa{
+        font-size: 16px;
+    }
+    .login .social .facebook{
+        background-color: #455CA8;
+        color: #FFFFFF;
+    }
+    .login .social .google{
+        background-color: #F74933;
+    }
+    .login .social .twitter{
+        background-color: #1da1f2
+    }
+    .login .facebook:hover{
+        background-color: #6E83CD;
+    }
+    .login .google:hover{
+        background-color: #FF7566;
+    }
+    .login .twitter:hover{
+        background-color: #1d96e0
+    }
+    .login .forgot {
+        color: #797979;
+        margin-left: 0;
+        overflow: hidden;
+        text-align: center;
+        width: 100%;
+    }
+    .login .forgot a {
+        color: #696969;
+        font-weight: 600
+    }
+    .login .btn-login, .registerBox .btn-register, .forgotPasswordBox .btn-forgot {
+        background-color: #398ee7;
+        border: none;
+        color: #FFFFFF;
+        display: block;
+        margin: 0 auto;
+        padding: 15px;
+        text-transform: uppercase;
+        width: 100%;
+        margin-top: 15px;
+        background-size: 300% 100%;
+        background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+        box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+         moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    .login .btn-login:hover, .registerBox .btn-register:hover, .forgotPasswordBox .btn-forgot:hover{
+        background-color: #00A4E4;
+        color: #FFF;
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+
+
+    .login .form-control{
+        border-radius: 3px;
+        background-color: rgba(230, 234, 241, 0.56);
+        box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.09) inset;
+        color: #FFFFFF;
+    }
+    .login .form-control:hover{
+        background-color: rgb(232, 240, 254);
+    }
+    .login .form-control:focus{
+        box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.04) inset;
+        background-color: rgba(0,0,0,0.23);
+        color: #FFFFFF;
+    }
+    .login .form input[type="text"], .login .form input[type="password"] {
+        border-radius: 3px;
+        border: none;
+        color: #484848;
+        font-size: 14px;
+        height: 46px;
+        margin-bottom: 10px;
+        padding: 13px 15px;
+        width: 100%;
+    }
+
+
+
+
+/*  @media (max-width:400px){
+        .login .modal-dialog{
+            width: 100%;
+        }
+    }*/
+
+    .big-login, .big-register{
+        background-color: #00bbff;
+        color: #FFFFFF;
+        border-radius: 7px;
+        border-width: 2px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        padding: 16px 60px;
+        text-transform: uppercase;
+        transition: all 0.3s ease 0s;
+        width: 300px;
+    }
+    .big-login{
+        margin-bottom: 20px;
+    }
+    .big-login:hover{
+        background-color: #00A4E4;
+        color: #FFFFFF;
+    }
+    .big-register{
+        background-color: rgba(0,0,0,.0);
+        color: #00bbff;
+        border-color: #00bbff;
+    }
+    .big-register:hover{
+        border-color: #00A4E4;
+        color:  #00A4E4;
+    }
+
+
+form.ajax-auth{
+    display: none;
+    z-index: 999;
+    position: fixed;
+    top: 150px;
+    left: 50%;
+    width: 350px;
+    margin-left: -200px;
+    padding: 40px 25px 25px 25px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    color: #878787;
+    font-size: 11px;
+}
+
+.ajax-auth h1, .ajax-auth h3{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: #333333;
+    line-height: 1;
+}
+
+.ajax-auth h1{
+    font-size: 27px;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.ajax-auth h3{
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+}
+
+.ajax-auth h3 a{
+    color: #e25c4c;
+}
+
+.ajax-auth hr {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0 none;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.ajax-auth input#username,
+.ajax-auth input#password,
+.ajax-auth input#signonname,
+.ajax-auth input#email,
+.ajax-auth input#signonpassword,
+.ajax-auth input#password2{
+    border: 1px solid #EDEDED;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset;
+    color: #333333;
+    font-size: 15px;
+    padding: 10px 10px 10px 13px;
+    width: 100%;
+    margin: 7px 0 20px 0;
+    background-color: #F9F9F9;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+.ajax-auth input#username:focus,
+.ajax-auth input#password:focus,
+.ajax-auth input#signonname:focus,
+.ajax-auth input#email:focus,
+.ajax-auth input#signonpassword:focus,
+.ajax-auth input#password2:focus{
+    background-color: #FFF;
+}
+
+.ajax-auth label.error{
+    display: none !important;
+}
+
+.ajax-auth input.error{
+    border: 1px solid #FF0000 !important;
+}
+
+.ajax-auth input.submit_button{
+    font-size: 13px;
+    color: #FFF;
+    border: 1px solid #b34336;
+    background-color: #e25c4c;
+    border-radius: 3px;
+    text-shadow: 0 1px 0 #ba3f31;
+    padding: 9px 31px 9px 31px;
+    background: -moz-linear-gradient(top, #ea6656, #df5949);
+    border-top: 1px solid #bb483a;
+    border-bottom: 1px solid #a63b2e;
+    float: right;
+    box-shadow: 0 1px 0 #E87A6E inset;
+    margin-top: 20px;
+}
+
+.ajax-auth a{
+    text-decoration: none;
+}
+
+.ajax-auth a.close{
+    color: #DCDCDC;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.ajax-auth a.text-link{
+    color: #B4B2B2;
+    float: left;
+    margin: 10px 0 0 0;
+}
+
+.ajax-auth p.status{
+    text-align: center;
+    margin: -15px 0 20px 0;
+    font-weight: 600;
+    display: none;
+}
+
+a.login_button{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 7px 5px 7px;
+    background-color: #FFF;
+    border-radius: 3px;
+    border: 1px solid #DCDCDC;
+    color: #333;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.login_overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #F6F6F6;
+    opacity: 0.9;
+    position: fixed;
+    z-index: 998;
+}
+.btn-default[disabled]:hover {
+    background-color: #5ad3ff!important;
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+    cursor: not-allowed;
+    opacity: .85;
+    filter: alpha(opacity=85);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.reset-captcha {
+    text-align: right;
+    color: #ef8436;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.reset-captcha:hover {
+    color: #ef8436;
+}
+.reset-captcha i {
+    color: #ff6000;
+}

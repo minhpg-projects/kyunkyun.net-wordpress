@@ -1,0 +1,1730 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-07 10:45+0700\n"
+"PO-Revision-Date: 2019-11-11 18:42+0700\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2.4\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: author.php:13 includes/functions/classes/Core.class.php:311
+msgid "Profiles"
+msgstr "Hồ sơ cá nhân"
+
+#: author.php:42
+msgid "Overview"
+msgstr "Tổng quan"
+
+#: author.php:45
+msgid "Change password"
+msgstr "Đổi mật khẩu"
+
+#: author.php:60
+msgid "Bookmark list"
+msgstr "Tủ phim"
+
+#: author.php:78
+msgid "Your password has not been updated!"
+msgstr "Mật khẩu của bạn chưa được cập nhật!"
+
+#: author.php:88 functions.php:278
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: author.php:92
+msgid "RePassword"
+msgstr "Nhập lại mật khẩu"
+
+#: author.php:95 includes/plugin-activation.php:2816
+msgid "Update"
+msgstr "Cập nhật"
+
+#: functions.php:60
+msgid "plugin is required. Please activate it before activating this theme!"
+msgstr ""
+
+#: functions.php:82
+msgid "HaLim Menu"
+msgstr ""
+
+#: functions.php:92
+msgid "License Manager"
+msgstr "Quản lý giấy phép"
+
+#: functions.php:103
+msgid "Manage Episodes"
+msgstr "Quản lý tập phim"
+
+#: functions.php:115
+msgid "Theme Options"
+msgstr ""
+
+#: functions.php:126
+msgid "Broken Movie"
+msgstr "Phim lỗi"
+
+#: functions.php:138
+msgid "Edit Episodes"
+msgstr "Sửa tập phim"
+
+#: functions.php:240
+msgid "Latest episode"
+msgstr "Tập mới nhất"
+
+#: functions.php:255
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: functions.php:277
+msgid "This content is password protected. To view it please enter your password below:"
+msgstr "Nội dung này được bảo vệ bằng mật khẩu. Để tiếp tục xem, vui lòng nhập mật khẩu vào ô bên dưới:"
+
+#: functions.php:279
+msgctxt "post password form"
+msgid "Enter"
+msgstr ""
+
+#: header.php:50
+msgid "Nhấn Enter để tìm kiếm"
+msgstr "Nhấn Enter để tìm kiếm"
+
+#: header.php:50
+msgid "Search..."
+msgstr "Tìm kiếm..."
+
+#: header.php:60
+msgid "Tủ Phim"
+msgstr "Tủ phim"
+
+#: header.php:73
+msgid "Menu"
+msgstr ""
+
+#: index.php:12 sidebar.php:9
+msgid "This is widget area. Go to Appearance -> Widgets to add some widgets."
+msgstr "Đây là khu vực Widget. Vui lòng click vào menu \"Giao diện -> Widget\" để thêm các widet cần thiết"
+
+#: metabox.php:2
+msgid "Fetch info URL"
+msgstr "URL cần thu thập dữ liệu"
+
+#: metabox.php:3
+msgid "Input url to fetch info."
+msgstr "Nhập URL để thu nạp thông tin"
+
+#: metabox.php:4 includes/framework/config/metabox.config.php:23
+msgid "Step 1"
+msgstr "Bước 1"
+
+#: metabox.php:5 includes/framework/config/metabox.config.php:48
+msgid "Poster image URL"
+msgstr "URL ảnh Poster"
+
+#: metabox.php:6 includes/framework/config/metabox.config.php:50
+msgid "Upload or paste your poster image url"
+msgstr "Tải lên hoặc dán url ảnh poster"
+
+#: metabox.php:7 includes/framework/config/metabox.config.php:53
+msgid "Input image url or use Upload button."
+msgstr "Nhập url ảnh hoặc sử dụng nút Upload"
+
+#: metabox.php:8 includes/framework/config/metabox.config.php:59
+msgid "Upload Poster image"
+msgstr "Tải lên ảnh poster"
+
+#: metabox.php:9 includes/framework/config/metabox.config.php:60
+msgid "Remote upload the poster image to server"
+msgstr "Tải ảnh poster lên máy chủ từ link ảnh được lưu trữ bởi web khác"
+
+#: metabox.php:10 includes/framework/config/metabox.config.php:66
+msgid "Featured image URL"
+msgstr "URL ảnh đại diện"
+
+#: metabox.php:11 includes/framework/config/metabox.config.php:68
+msgid "Post thumbnail URL"
+msgstr "URL ảnh thumbnail"
+
+#: metabox.php:12 includes/framework/config/metabox.config.php:77
+msgid "Set as featured image"
+msgstr "Đặt làm ảnh đại diện"
+
+#: metabox.php:13 includes/framework/config/metabox.config.php:78
+msgid "Set as featured image and save image to server"
+msgstr "Đặt làm ảnh đại diện đồng thời lưu ảnh về máy chủ"
+
+#: metabox.php:14 includes/framework/config/metabox.config.php:79
+msgid "This will be upload the image and will display on the"
+msgstr "Điều này sẽ tải về hình ảnh và tự động đặt làm ảnh đại diện"
+
+#: metabox.php:15 includes/framework/config/metabox.config.php:79
+msgid "Feature Image"
+msgstr "Ảnh đại diện"
+
+#: metabox.php:16 includes/framework/config/metabox.config.php:79
+msgid "box on right sidebar"
+msgstr "ở cột bên phải"
+
+#: metabox.php:17 includes/framework/config/metabox.config.php:85
+#: includes/framework/config/metabox.config.php:367
+msgid "Auto save images"
+msgstr "Tự động lưu hình ảnh"
+
+#: metabox.php:18 includes/framework/config/metabox.config.php:86
+#: includes/framework/config/metabox.config.php:368
+msgid "Automatically find images in posts and save them to the your server and wp media library"
+msgstr ""
+"Tự động tìm kiếm các hình ảnh trong nội dung vài viết và đồng thời tự động lưu tất cả hình ảnh được tìm "
+"thấy vào Thư viện"
+
+#: metabox.php:19 includes/framework/config/metabox.config.php:87
+#: includes/framework/config/metabox.config.php:369
+msgid "Auto save images to server"
+msgstr "Tự động lưu ảnh"
+
+#: metabox.php:20 includes/framework/config/metabox.config.php:106
+msgid "Step 2"
+msgstr "Bước 2"
+
+#: metabox.php:21 includes/framework/config/metabox.config.php:113
+#: includes/framework/config/metabox.config.php:115
+msgid "Original title"
+msgstr "Tựa đề gốc"
+
+#: metabox.php:22 includes/framework/config/metabox.config.php:132
+msgid "Runtime"
+msgstr "Thời lượng phim"
+
+#: metabox.php:23 includes/framework/config/metabox.config.php:134
+msgid "Runtime (90 min)"
+msgstr "Thời lượng 90 phút"
+
+#: metabox.php:24 includes/framework/config/metabox.config.php:143
+#: includes/framework/config/metabox.config.php:145
+msgid "IMBD Rating"
+msgstr "Điểm IMDB"
+
+#: metabox.php:25 includes/framework/config/metabox.config.php:152
+#: includes/framework/config/metabox.config.php:154
+msgid "IMBD Votes"
+msgstr "Tổng số phiếu bầu IMDB"
+
+#: metabox.php:26 includes/framework/config/metabox.config.php:162
+#: includes/functions/classes/Core.class.php:240 includes/functions/classes/Core.class.php:447
+msgid "Episode"
+msgstr "Tập phim"
+
+#: metabox.php:27 includes/framework/config/metabox.config.php:164
+msgid "Episode 20, Tập 20"
+msgstr "Tập 20, tập cuối..."
+
+#: metabox.php:28 includes/framework/config/metabox.config.php:180
+msgid "Quality"
+msgstr "Chất lượng"
+
+#: metabox.php:29 includes/framework/config/metabox.config.php:194
+msgid "Step 3"
+msgstr "Bước 3"
+
+#: metabox.php:30 includes/framework/config/metabox.config.php:201
+msgid "Options"
+msgstr "Các tùy chọn"
+
+#: metabox.php:31 includes/framework/config/metabox.config.php:204
+msgid "Add to Slider"
+msgstr "Hiển thị trong Widget Slider (ảnh lớn)"
+
+#: metabox.php:32 includes/framework/config/metabox.config.php:205
+msgid "Set as featured"
+msgstr "Đặt làm ảnh đại diện (ảnh thu nhỏ)"
+
+#: metabox.php:33 includes/functions.php:170 includes/framework/config/metabox.config.php:214
+#: includes/functions/ajaxFunctions.php:864 includes/functions/ajaxFunctions.php:866
+msgid "Formality"
+msgstr "Định dạng"
+
+#: metabox.php:34 includes/widgets/halim-advanced-widget.php:160
+#: includes/widgets/halim-vertical-widget.php:29 pages/page-movies.php:11
+msgid "Movies"
+msgstr "Phim lẻ"
+
+#: metabox.php:35 includes/functions.php:176 includes/framework/config/metabox.config.php:218
+msgid "TV series"
+msgstr "Phim bộ"
+
+#: metabox.php:36 includes/functions.php:192 includes/plugin-activation.php:2647
+#: includes/framework/config/metabox.config.php:228 includes/functions/ajaxFunctions.php:876
+#: includes/functions/ajaxFunctions.php:878
+msgid "Status"
+msgstr "Tình trạng"
+
+#: metabox.php:37 includes/functions.php:197 includes/framework/config/metabox.config.php:231
+#: includes/functions/ajaxFunctions.php:879 templates/single-layout-1/single.info.php:58
+#: templates/single-layout-2/single.info.php:40
+msgid "Trailer"
+msgstr ""
+
+#: metabox.php:38 includes/functions.php:198 includes/framework/config/metabox.config.php:232
+#: includes/functions/ajaxFunctions.php:880
+msgid "Ongoing"
+msgstr "Đang phát"
+
+#: metabox.php:39 includes/functions.php:199 includes/framework/config/metabox.config.php:233
+#: includes/widgets/halim-advanced-widget.php:156
+msgid "Completed"
+msgstr "Hoàn thành"
+
+#: metabox.php:40 includes/framework/config/metabox.config.php:241
+msgid "Notification / Note"
+msgstr "Thông báo / Lưu ý"
+
+#: metabox.php:41 includes/framework/config/metabox.config.php:252
+msgid "Showtime movies"
+msgstr "Lịch chiếu"
+
+#: search.php:4 search.php:7
+#, php-format
+msgid "Kết quả tìm kiếm cho: %s"
+msgstr "Kết quả tìm kiếm cho từ khóa: %s"
+
+#: single-news.php:10 single-video.php:20 includes/functions/classes/Core.class.php:462
+#: includes/widgets/halim-recent-viewed-post.php:123 templates/single.full.php:1
+#: templates/single-layout-1/single.watch.php:65 templates/single-layout-2/single.watch.php:65
+msgid "view"
+msgstr "lượt xem"
+
+#: single-news.php:35
+msgid "Related news"
+msgstr "Tin tức cùng chuyên mục"
+
+#: single-video.php:43
+msgid "Related videos"
+msgstr "Video cùng thể loại"
+
+#: single.php:45
+msgid "Automatically resumes your videos from where you played them last at"
+msgstr "Tự động phát lại phim từ thời điểm bạn xem gần đây nhất tại"
+
+#: single.php:46
+msgid "Playback from the beginning?"
+msgstr "Phát lại từ đầu?"
+
+#: single.php:47
+msgid "Playback"
+msgstr "Phát lại"
+
+#: single.php:48
+msgid "Continue watching"
+msgstr "Xem tiếp"
+
+#: single.php:49
+msgid "Reload Player"
+msgstr "Tải lại trình phát"
+
+#: single.php:50
+msgid ""
+"We are unable to find the video you are looking for. There could be several reasons for this, for "
+"example it got removed by the owner!"
+msgstr ""
+"Chúng tôi không thể tìm thấy video bạn đang tìm kiếm. Có thể có một số lý do cho việc này, ví dụ như nó "
+"đã bị xóa bởi chủ sở hữu!"
+
+#: single.php:51
+msgid "This video file cannot be played."
+msgstr "Video lỗi không thể phát được."
+
+#: single.php:52
+msgid "To continue watching, please click on the \"Reload Player\" button"
+msgstr "Để xem tiếp, vui lòng click vào nút \"Tải lại trình phát\""
+
+#: single.php:53
+msgid "or click on the buttons below"
+msgstr "hoặc click vào các nút được liệt kê bên dưới"
+
+#: single.php:54
+msgid "Light On"
+msgstr "Bật đèn"
+
+#: single.php:55 templates/single.full.php:1 templates/single-layout-1/single.watch.php:61
+#: templates/single-layout-2/single.watch.php:61
+msgid "Tắt đèn"
+msgstr "Tắt đèn"
+
+#: single.php:56 templates/single.full.php:1 templates/single-layout-1/single.watch.php:58
+#: templates/single-layout-2/single.watch.php:58
+msgid "Phóng to"
+msgstr "Phóng to"
+
+#: single.php:57
+msgid "Collapse"
+msgstr "Thu nhỏ"
+
+#: single.php:58
+msgid "Đang khởi tạo trình phát, vui lòng chờ..."
+msgstr "Đang khởi tạo trình phát, vui lòng chờ..."
+
+#: single.php:59
+msgid "Tự động chuyển tập, vui lòng chờ..."
+msgstr "Đang tự động chuyển tập, vui lòng chờ..."
+
+#: single.php:63
+msgid "Don't show again"
+msgstr "Không hiển thị lại"
+
+#: single.php:64
+msgid "EXIT"
+msgstr "THOÁT"
+
+#: single.php:65
+msgid "18+ ENTER"
+msgstr "TÔI ĐỦ 18 TUỔI"
+
+#: single.php:68
+msgid "Your name and message is required (*)"
+msgstr "Tên (email) và nội dung là bắt buộc"
+
+#: single.php:69
+msgid "Your message"
+msgstr "Nội dung"
+
+#: single.php:70
+msgid "Thank you for sending error messages. We will fix the problem in the shortest time possible."
+msgstr "Cảm ơn bạn đã gửi thông báo lỗi. Chúng tôi sẽ tiến hành sửa lỗi sớm nhất có thể"
+
+#: single.php:72 templates/single.full.php:1 templates/single-layout-1/single.watch.php:63
+#: templates/single-layout-2/single.watch.php:63
+msgid "Report"
+msgstr "Báo lỗi"
+
+#: single.php:73
+msgid "Name or Email"
+msgstr "Tên hoặc Email"
+
+#: single.php:74
+msgid "Close"
+msgstr "Đóng"
+
+#: taxonomy-actor.php:5
+msgid "Movie by actor"
+msgstr "Danh sách phim tham gia bởi"
+
+#: taxonomy-country.php:6
+msgid "Movie by country"
+msgstr "Phim"
+
+#: taxonomy-director.php:6
+msgid "Movie by director"
+msgstr "Danh sách phim đạo diễn bởi"
+
+#: taxonomy-release.php:5
+msgid "Movies of"
+msgstr "Danh sách phim theo năm"
+
+#: includes/custom-post-type.php:8 includes/custom-post-type.php:9 includes/custom-post-type.php:10
+#: includes/custom-post-type.php:14 includes/widgets/halim-news-box-widget.php:98
+#: includes/widgets/halim-news-box-widget.php:107
+msgid "News"
+msgstr "Tin tức"
+
+#: includes/custom-post-type.php:11
+msgid "Add news"
+msgstr "Thêm tin tức"
+
+#: includes/custom-post-type.php:42 includes/custom-post-type.php:44
+msgid "News categories"
+msgstr "Các thể loại tin tức"
+
+#: includes/custom-post-type.php:43
+msgid "News category"
+msgstr "Thể loại tin tức"
+
+#: includes/custom-post-type.php:45 includes/custom-post-type.php:134
+msgid "All categories"
+msgstr "Tất cả thể loại"
+
+#: includes/custom-post-type.php:74 includes/custom-post-type.php:76
+msgid "News tags"
+msgstr "DS Thẻ"
+
+#: includes/custom-post-type.php:75
+msgid "News tag"
+msgstr "Thẻ"
+
+#: includes/custom-post-type.php:98 includes/custom-post-type.php:100
+msgid "Videos"
+msgstr ""
+
+#: includes/custom-post-type.php:99 includes/custom-post-type.php:104
+msgid "Video"
+msgstr ""
+
+#: includes/custom-post-type.php:101
+msgid "Add new video"
+msgstr "Thêm mới video"
+
+#: includes/custom-post-type.php:131 includes/custom-post-type.php:133
+msgid "Video Categories"
+msgstr "Các thể loại video"
+
+#: includes/custom-post-type.php:132
+msgid "Video Category"
+msgstr "Thể loại video"
+
+#: includes/custom-post-type.php:163 includes/custom-post-type.php:165
+msgid "Video tags"
+msgstr "DS thẻ"
+
+#: includes/custom-post-type.php:164
+msgid "Video tag"
+msgstr "Thẻ"
+
+#: includes/custom-post-type.php:324 includes/functions/hackFunctions.php:150
+msgid "Search"
+msgstr "Tìm kiếm"
+
+#: includes/functions.php:175
+msgid "TV show"
+msgstr "Phim truyền hình"
+
+#: includes/functions.php:177 includes/functions/ajaxFunctions.php:867
+msgid "Single movie"
+msgstr "Phim lẻ"
+
+#: includes/functions.php:178
+msgid " Theater movie"
+msgstr "Phim chiếu rạp"
+
+#: includes/plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: includes/plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: includes/plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+
+#: includes/plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+
+#: includes/plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure maximum compatibility with this "
+"theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure maximum compatibility with "
+"this theme: %1$s."
+msgstr[0] ""
+
+#: includes/plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+
+#: includes/plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+
+#: includes/plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+
+#: includes/plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+
+#: includes/plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+
+#: includes/plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+
+#: includes/plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/plugin-activation.php:393 includes/plugin-activation.php:920
+#: includes/plugin-activation.php:2626 includes/plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/plugin-activation.php:394 includes/plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/plugin-activation.php:395 includes/plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+
+#: includes/plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: includes/plugin-activation.php:399
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#: includes/plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: includes/plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: includes/plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: includes/plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: includes/plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: includes/plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: includes/plugin-activation.php:1027 includes/plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin according to the WordPress "
+"guidelines."
+msgstr ""
+
+#: includes/plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: includes/plugin-activation.php:1214 includes/plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: includes/plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: includes/plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: includes/plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: includes/plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: includes/plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: includes/plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: includes/plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: includes/plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: includes/plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: includes/plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: includes/plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#: includes/plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#: includes/plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#: includes/plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+
+#: includes/plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: includes/plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: includes/plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: includes/plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: includes/plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: includes/plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: includes/plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: includes/plugin-activation.php:2642 includes/widgets/halim-latest-update.php:86
+#: includes/widgets/halim-vertical-widget.php:139
+msgid "Type"
+msgstr ""
+
+#: includes/plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: includes/plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: includes/plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: includes/plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: includes/plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: includes/plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: includes/plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: includes/plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: includes/plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: includes/plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: includes/plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: includes/plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: includes/plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: includes/plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a while on some hosts, so "
+"please be patient."
+msgstr ""
+
+#: includes/plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/plugin-activation.php:3602 includes/plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: includes/plugin-activation.php:3602 includes/plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: includes/plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/theme-setup.php:9
+msgid "Header Menu"
+msgstr ""
+
+#: includes/framework/classes/framework.class.php:174
+msgid "Success. Imported backup options."
+msgstr ""
+
+#: includes/framework/classes/framework.class.php:179
+msgid "Default options restored."
+msgstr ""
+
+#: includes/framework/classes/framework.class.php:198
+msgid "Default options restored for only this section."
+msgstr ""
+
+#: includes/framework/classes/framework.class.php:372
+msgid "Settings saved."
+msgstr ""
+
+#: includes/framework/classes/framework.class.php:374
+msgid "Save"
+msgstr ""
+
+#: includes/framework/classes/framework.class.php:374
+msgid "Saving..."
+msgstr ""
+
+#: includes/framework/classes/framework.class.php:375
+msgid "Restore"
+msgstr ""
+
+#: includes/framework/classes/framework.class.php:378 includes/framework/fields/backup/backup.php:29
+msgid "Reset All Options"
+msgstr ""
+
+#: includes/framework/classes/framework.class.php:382
+msgid "show all options"
+msgstr ""
+
+#: includes/framework/classes/options.class.php:125
+msgid "CONFIG"
+msgstr ""
+
+#: includes/framework/classes/options.class.php:131 includes/framework/classes/options.class.php:151
+msgid "USAGE"
+msgstr ""
+
+#: includes/framework/classes/options.class.php:137
+msgid "VALUE"
+msgstr ""
+
+#: includes/framework/classes/options.class.php:155
+msgid "ID"
+msgstr ""
+
+#: includes/framework/classes/options.class.php:227
+#, php-format
+msgid "You are editing language: ( %s )"
+msgstr ""
+
+#: includes/framework/classes/shortcode.class.php:81 includes/framework/classes/shortcode.class.php:89
+#: includes/framework/fields/textarea/textarea.php:27
+msgid "Add Shortcode"
+msgstr ""
+
+#: includes/framework/classes/shortcode.class.php:91
+msgid "Select a shortcode"
+msgstr ""
+
+#: includes/framework/classes/shortcode.class.php:107
+msgid "Insert Shortcode"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:92
+msgid "Adult content (18+)"
+msgstr "Nội dung 18+"
+
+#: includes/framework/config/metabox.config.php:97
+msgid "Copyright"
+msgstr "Phim bản quyền"
+
+#: includes/framework/config/metabox.config.php:171
+msgid "Total Episode"
+msgstr "Tổng số tập phim"
+
+#: includes/framework/config/metabox.config.php:173
+msgid "70"
+msgstr ""
+
+#: includes/framework/config/metabox.config.php:206
+msgid "Paging the episodes"
+msgstr "Phân trang tập phim"
+
+#: includes/framework/config/metabox.config.php:217 includes/functions/hackFunctions.php:144
+#: includes/functions/hackFunctions.php:148 includes/widgets/halim-latest-update.php:89
+#: includes/widgets/halim-vertical-widget.php:142
+msgid "Movie"
+msgstr "Phim lẻ"
+
+#: includes/framework/config/metabox.config.php:219
+msgid "TV shows"
+msgstr "Phim truyền hình"
+
+#: includes/framework/config/metabox.config.php:220 includes/functions/ajaxFunctions.php:868
+msgid "Theater movie"
+msgstr "Phim chiếu rạp"
+
+#: includes/framework/fields/background/background.php:34
+#: includes/framework/fields/background/background.php:35 includes/framework/fields/upload/upload.php:23
+#: includes/framework/fields/upload/upload.php:24
+msgid "Upload"
+msgstr ""
+
+#: includes/framework/fields/background/background.php:36 includes/framework/fields/upload/upload.php:25
+msgid "Use Image"
+msgstr ""
+
+#: includes/framework/fields/backup/backup.php:21
+msgid "Import a Backup"
+msgstr ""
+
+#: includes/framework/fields/backup/backup.php:22
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: includes/framework/fields/backup/backup.php:27
+msgid "Export and Download Backup"
+msgstr ""
+
+#: includes/framework/fields/backup/backup.php:28 includes/functions/welcomeMsg.php:23
+msgid "or"
+msgstr ""
+
+#: includes/framework/fields/backup/backup.php:30
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: includes/framework/fields/gallery/gallery.php:21
+msgid "Add Gallery"
+msgstr ""
+
+#: includes/framework/fields/gallery/gallery.php:22
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/framework/fields/gallery/gallery.php:23
+msgid "Clear"
+msgstr ""
+
+#: includes/framework/fields/group/group.php:22
+msgid "Adding"
+msgstr ""
+
+#: includes/framework/fields/group/group.php:45 includes/framework/fields/group/group.php:77
+msgid "Remove"
+msgstr ""
+
+#: includes/framework/fields/icon/icon.php:25 includes/framework/functions/actions.php:82
+msgid "Add Icon"
+msgstr ""
+
+#: includes/framework/fields/icon/icon.php:26
+msgid "Remove Icon"
+msgstr ""
+
+#: includes/framework/fields/image/image.php:22
+msgid "Add Image"
+msgstr ""
+
+#: includes/framework/fields/sorter/sorter.php:24
+msgid "Enabled Modules"
+msgstr ""
+
+#: includes/framework/fields/sorter/sorter.php:25
+msgid "Disabled Modules"
+msgstr ""
+
+#: includes/framework/fields/switcher/switcher.php:20
+msgid "on"
+msgstr ""
+
+#: includes/framework/fields/switcher/switcher.php:20
+msgid "off"
+msgstr ""
+
+#: includes/framework/fields/typography/typography.php:73
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: includes/framework/fields/typography/typography.php:79
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/framework/fields/typography/typography.php:107 includes/framework/functions/actions.php:32
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: includes/framework/functions/actions.php:83
+msgid "Search a Icon..."
+msgstr ""
+
+#: includes/framework/functions/actions.php:84
+msgid "Loading..."
+msgstr ""
+
+#: includes/framework/functions/helpers.php:49
+msgid "This field class is not available!"
+msgstr ""
+
+#: includes/framework/functions/validate.php:14
+msgid "Please write a valid email address!"
+msgstr ""
+
+#: includes/framework/functions/validate.php:33
+msgid "Please write a numeric data!"
+msgstr ""
+
+#: includes/framework/functions/validate.php:51
+msgid "Fatal Error! This field is required!"
+msgstr ""
+
+#: includes/functions/ajaxFunctions.php:421 includes/functions/ajaxFunctions.php:501
+#: includes/functions/ajaxFunctions.php:585 includes/functions/classes/Core.class.php:96
+#: includes/functions/classes/Core.class.php:166 includes/functions/classes/Core.class.php:198
+msgid "episode"
+msgstr "tập"
+
+#: includes/functions/ajaxFunctions.php:853 includes/functions/ajaxFunctions.php:855
+msgid "Sort by"
+msgstr "Xắp xếp"
+
+#: includes/functions/ajaxFunctions.php:856 includes/widgets/halim-advanced-widget.php:151
+#: includes/widgets/halim-latest-post.php:20 includes/widgets/halim-vertical-widget.php:32
+#: includes/widgets/halim-vertical-widget.php:71
+msgid "Latest"
+msgstr "Mới nhất"
+
+#: includes/functions/ajaxFunctions.php:857 includes/widgets/halim-advanced-widget.php:158
+#: includes/widgets/halim-vertical-widget.php:38 includes/widgets/halim-vertical-widget.php:77
+msgid "Nhiều lượt xemed"
+msgstr "Xem nhiều"
+
+#: includes/functions/ajaxFunctions.php:858 includes/widgets/halim-advanced-widget.php:157
+msgid "Mới cập nhật"
+msgstr "Mới cập nhật"
+
+#: includes/functions/ajaxFunctions.php:869 includes/widgets/halim-advanced-widget.php:159
+#: includes/widgets/halim-latest-update.php:89 includes/widgets/halim-vertical-widget.php:68
+#: includes/widgets/halim-vertical-widget.php:142 pages/page-tv-series.php:14
+msgid "TV Series"
+msgstr "Phim bộ"
+
+#: includes/functions/ajaxFunctions.php:870
+msgid "TV Shows"
+msgstr "Phim truyền hình"
+
+#: includes/functions/ajaxFunctions.php:881
+msgid "Complete"
+msgstr "Hoàn thành"
+
+#: includes/functions/ajaxFunctions.php:887 includes/functions/ajaxFunctions.php:889
+#: includes/functions/classes/Core.class.php:227 includes/functions/classes/Core.class.php:421
+#: templates/single-layout-1/single.info.php:78 templates/single-layout-2/single.info.php:84
+msgid "Quốc gia"
+msgstr "Quốc gia"
+
+#: includes/functions/ajaxFunctions.php:900 includes/functions/ajaxFunctions.php:902
+msgid "Release"
+msgstr "Năm xuất bản"
+
+#: includes/functions/ajaxFunctions.php:912 includes/functions/ajaxFunctions.php:914
+#: includes/functions/classes/Core.class.php:253 includes/functions/classes/Core.class.php:422
+#: templates/single-layout-2/single.info.php:93
+msgid "Genres"
+msgstr "Thể loại"
+
+#: includes/functions/ajaxFunctions.php:923
+msgid "Filter movie"
+msgstr "Lọc phim"
+
+#: includes/functions/basicFunctions.php:87
+msgid "<i class=\"hl-down-open rotate-left\"></i>"
+msgstr ""
+
+#: includes/functions/basicFunctions.php:88
+msgid "<i class=\"hl-down-open rotate-right\"></i>"
+msgstr ""
+
+#: includes/functions/basicFunctions.php:204
+msgid "votes"
+msgstr "đánh giá"
+
+#: includes/functions/hackFunctions.php:131
+msgid "List movies"
+msgstr "Danh sách phim"
+
+#: includes/functions/hackFunctions.php:132
+msgid "All posts"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:133 includes/functions/hackFunctions.php:145
+msgid "Add new"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:134 includes/widgets/halim-advanced-widget.php:155
+#: includes/widgets/halim-advanced-widget.php:254 includes/widgets/halim-carousel-slider-widget.php:115
+#: includes/widgets/halim-carousel-slider-widget.php:158 includes/widgets/halim-latest-post.php:104
+#: includes/widgets/halim-news-box-widget.php:115 includes/widgets/halim-tag-cloud-widget.php:37
+msgid "Category"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:135 includes/widgets/halim-tag-cloud-widget.php:36
+msgid "Tags"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:143
+msgid "List Movie"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:146 includes/functions/hackFunctions.php:160
+msgid "Add new movie"
+msgstr "Thêm phim"
+
+#: includes/functions/hackFunctions.php:147
+msgid "Edit"
+msgstr "Sửa"
+
+#: includes/functions/hackFunctions.php:149
+msgid "View post"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:151 includes/functions/hackFunctions.php:152
+msgid "No result"
+msgstr ""
+
+#: includes/functions/hackFunctions.php:288
+msgid "No feed available, please visit our <a href=\""
+msgstr ""
+
+#: includes/functions/hackFunctions.php:411
+msgid "Only authenticated users can access the REST API."
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:13
+msgid "Welcome to HaLimMovie!"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:14
+msgid "We’ve assembled some links to get you started"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:17
+msgid "Get Started"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:18
+msgid "Customize Your Site"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:19
+msgid "Next Steps"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:21
+msgid "Add a new movie"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:22
+msgid "Add additional pages"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:23
+msgid "Manage"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:23
+msgid "widgets"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:23
+msgid "menus"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:24
+msgid "View your site"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:29
+msgid "See full changelogs"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:66
+msgid "Awesomeness!"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:67
+msgid "You have just Installed HaLimMovie WordPress Theme by HaLimThemes."
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:68
+msgid "You can Trigger The Awesomeness using Amazing Option Panel in <b>Theme Options</b>."
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:69
+msgid "If you face any problem, head over to"
+msgstr ""
+
+#: includes/functions/welcomeMsg.php:69
+msgid "Knowledge Base"
+msgstr ""
+
+#: includes/functions/classes/Core.class.php:214 templates/single-layout-1/single.info.php:81
+#: templates/single-layout-2/single.info.php:87
+msgid "Director"
+msgstr "'Đạo diễn'"
+
+#: includes/functions/classes/Core.class.php:247
+msgid "Duration"
+msgstr "Thời lượng"
+
+#: includes/functions/classes/Core.class.php:261 templates/single-layout-1/single.info.php:84
+#: templates/single-layout-2/single.info.php:90
+msgid "Actors"
+msgstr "Diễn viên"
+
+#: includes/functions/classes/Core.class.php:312
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: includes/functions/classes/Core.class.php:323 includes/functions/classes/Core.class.php:328
+msgid "You have Access Denied. Please authorize the app to login."
+msgstr ""
+
+#: includes/functions/classes/Core.class.php:334
+msgid "Login"
+msgstr "Đăng nhập"
+
+#: includes/functions/classes/Core.class.php:345
+msgid "Login with"
+msgstr "Đăng nhập bằng"
+
+#: includes/widgets/halim-advanced-widget.php:8
+msgid "HaLim Advanced Widget"
+msgstr ""
+
+#: includes/widgets/halim-advanced-widget.php:11
+msgid "Display posts by category, latest, most viewed, last update"
+msgstr ""
+
+#: includes/widgets/halim-advanced-widget.php:126 includes/widgets/halim-advanced-widget.php:139
+#: includes/widgets/halim-carousel-slider-widget.php:95
+#: includes/widgets/halim-carousel-slider-widget.php:104 includes/widgets/halim-latest-post.php:72
+#: includes/widgets/halim-latest-post.php:79 includes/widgets/halim-latest-update.php:80
+#: includes/widgets/halim-popular-movie.php:80 includes/widgets/halim-popular-tab-widget.php:91
+#: includes/widgets/halim-popular-tv-series.php:81 includes/widgets/halim-recent-viewed-post.php:24
+#: includes/widgets/halim-related-video-widget.php:121 includes/widgets/halim-tag-cloud-widget.php:30
+#: includes/widgets/halim-trailer-widget.php:71 includes/widgets/halim-vertical-widget.php:133
+#: includes/widgets/halim-video-box-widget.php:107
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: includes/widgets/halim-advanced-widget.php:144
+msgid "View more URL"
+msgstr "Liên kết đến trang chính"
+
+#: includes/widgets/halim-advanced-widget.php:148
+msgid "Display posts by"
+msgstr "Hiển thị bởi"
+
+#: includes/widgets/halim-advanced-widget.php:220 includes/widgets/halim-latest-post.php:85
+msgid "Random post"
+msgstr "Hiển thị ngẫu nhiên"
+
+#: includes/widgets/halim-advanced-widget.php:225
+msgid "Sub category"
+msgstr "Thể loại phụ"
+
+#: includes/widgets/halim-advanced-widget.php:240 includes/widgets/halim-related-video-widget.php:128
+msgid "Layout"
+msgstr "Bố cục"
+
+#: includes/widgets/halim-advanced-widget.php:244
+msgid "4 item/row"
+msgstr "4 phim / hàng"
+
+#: includes/widgets/halim-advanced-widget.php:244
+msgid "6 item/row"
+msgstr "6 phim / hàng"
+
+#: includes/widgets/halim-advanced-widget.php:265
+#: includes/widgets/halim-carousel-fullwidth-slider-widget.php:113
+#: includes/widgets/halim-carousel-slider-widget.php:168 includes/widgets/halim-latest-post.php:115
+#: includes/widgets/halim-latest-update.php:98 includes/widgets/halim-news-box-widget.php:126
+#: includes/widgets/halim-popular-movie.php:85 includes/widgets/halim-popular-tab-widget.php:96
+#: includes/widgets/halim-popular-tv-series.php:86 includes/widgets/halim-related-video-widget.php:142
+#: includes/widgets/halim-trailer-widget.php:76 includes/widgets/halim-vertical-widget.php:151
+#: includes/widgets/halim-video-box-widget.php:126
+msgid "Number of post to show"
+msgstr "Số phim hiển thị"
+
+#: includes/widgets/halim-carousel-fullwidth-slider-widget.php:8
+msgid "HaLim Full Width Slider"
+msgstr ""
+
+#: includes/widgets/halim-carousel-fullwidth-slider-widget.php:11
+msgid ""
+"This widget displays posts specified in the post page. Drag the widget into the \"Full Width Slide Show"
+"\" widget"
+msgstr ""
+
+#: includes/widgets/halim-carousel-slider-widget.php:8
+msgid "HaLim Carousel Slide Show"
+msgstr ""
+
+#: includes/widgets/halim-carousel-slider-widget.php:11
+msgid "Display posts with Carousel slider"
+msgstr ""
+
+#: includes/widgets/halim-carousel-slider-widget.php:37 includes/widgets/halim-latest-post.php:32
+msgid "Xem tất cả"
+msgstr "Xem tất cả"
+
+#: includes/widgets/halim-carousel-slider-widget.php:108 includes/widgets/halim-video-box-widget.php:111
+msgid "See more URL"
+msgstr "Liên kết đến trang chính"
+
+#: includes/widgets/halim-carousel-slider-widget.php:112
+msgid "Display by"
+msgstr ""
+
+#: includes/widgets/halim-carousel-slider-widget.php:115
+msgid "Featured"
+msgstr "Nổi bật"
+
+#: includes/widgets/halim-carousel-slider-widget.php:153
+msgid "Post item per row"
+msgstr "Số phim hiển thị trên hàng"
+
+#: includes/widgets/halim-carousel-slider-widget.php:160
+msgid "All category"
+msgstr "Tất cả thể loại"
+
+#: includes/widgets/halim-latest-post.php:8
+msgid "HaLim Latest Post Widget"
+msgstr ""
+
+#: includes/widgets/halim-latest-post.php:11
+msgid "Display the latest movie"
+msgstr ""
+
+#: includes/widgets/halim-latest-post.php:90
+msgid "Layout:"
+msgstr "Bố cục:"
+
+#: includes/widgets/halim-latest-post.php:94
+msgid "4 video/row"
+msgstr "4 video / hàng"
+
+#: includes/widgets/halim-latest-post.php:94
+msgid "6 video/row"
+msgstr "6 video / hàng"
+
+#: includes/widgets/halim-latest-update.php:8
+msgid "Latest update movie"
+msgstr ""
+
+#: includes/widgets/halim-latest-update.php:11 includes/widgets/halim-vertical-widget.php:11
+msgid "Display Latest Updated Movie & TV Series"
+msgstr ""
+
+#: includes/widgets/halim-news-box-widget.php:8
+msgid "HaLim News Box"
+msgstr ""
+
+#: includes/widgets/halim-news-box-widget.php:11
+msgid "Display list news by category"
+msgstr ""
+
+#: includes/widgets/halim-news-box-widget.php:20
+msgctxt "halimthemes"
+msgid "News"
+msgstr ""
+
+#: includes/widgets/halim-news-box-widget.php:40 includes/widgets/halim-video-box-widget.php:37
+msgid "See more"
+msgstr "Xem thêm"
+
+#: includes/widgets/halim-news-box-widget.php:111
+msgid "See more page URL"
+msgstr ""
+
+#: includes/widgets/halim-popular-movie.php:8
+msgid "HaLim TOP Movies"
+msgstr ""
+
+#: includes/widgets/halim-popular-movie.php:11
+msgid "Display popular post by movie"
+msgstr ""
+
+#: includes/widgets/halim-popular-movie.php:75 includes/widgets/halim-popular-tab-widget.php:86
+#: includes/widgets/halim-popular-tv-series.php:76
+msgid "Popular"
+msgstr "Nổi bật"
+
+#: includes/widgets/halim-popular-tab-widget.php:8
+msgid "HaLim Polpular Movies"
+msgstr ""
+
+#: includes/widgets/halim-popular-tab-widget.php:11
+msgid "Display popular post by day, week, month and alltime"
+msgstr ""
+
+#: includes/widgets/halim-popular-tab-widget.php:31
+msgid "Day"
+msgstr "Ngày"
+
+#: includes/widgets/halim-popular-tab-widget.php:34
+msgid "Week"
+msgstr "Tuần"
+
+#: includes/widgets/halim-popular-tab-widget.php:37
+msgid "Month"
+msgstr "Tháng"
+
+#: includes/widgets/halim-popular-tab-widget.php:40
+msgid "All"
+msgstr "Tất cả"
+
+#: includes/widgets/halim-popular-tv-series.php:8
+msgid "HaLim TOP TV Series"
+msgstr ""
+
+#: includes/widgets/halim-popular-tv-series.php:11
+msgid "Display popular post by tv series"
+msgstr ""
+
+#: includes/widgets/halim-recent-viewed-post.php:9
+msgid "Displays recent viewed posts by a visitor as a responsive sidebar widget"
+msgstr ""
+
+#: includes/widgets/halim-recent-viewed-post.php:28
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/widgets/halim-recent-viewed-post.php:33
+msgid "Display post view?"
+msgstr ""
+
+#: includes/widgets/halim-recent-viewed-post.php:69
+msgid "Recently Visited Posts"
+msgstr ""
+
+#: includes/widgets/halim-related-video-widget.php:8
+msgid "Halim Related Movie"
+msgstr ""
+
+#: includes/widgets/halim-related-video-widget.php:11
+msgid "Display related movies"
+msgstr "Hiển thị phim cùng thể loại"
+
+#: includes/widgets/halim-related-video-widget.php:131
+msgid "Slide show"
+msgstr ""
+
+#: includes/widgets/halim-related-video-widget.php:131
+msgid "Grid box"
+msgstr ""
+
+#: includes/widgets/halim-tag-cloud-widget.php:8
+msgid "HaLim Tag Cloud"
+msgstr ""
+
+#: includes/widgets/halim-tag-cloud-widget.php:9
+msgid "Display all tags cloud. Drag and Drop on Footer Widget"
+msgstr ""
+
+#: includes/widgets/halim-tag-cloud-widget.php:22
+msgid "Tag Cloud"
+msgstr ""
+
+#: includes/widgets/halim-tag-cloud-widget.php:34
+msgid "Taxonomy"
+msgstr ""
+
+#: includes/widgets/halim-tag-cloud-widget.php:42
+msgid "Show number of smallest"
+msgstr ""
+
+#: includes/widgets/halim-tag-cloud-widget.php:48
+msgid "Show number of largest"
+msgstr ""
+
+#: includes/widgets/halim-tag-cloud-widget.php:55
+msgid "Number of tag to show"
+msgstr ""
+
+#: includes/widgets/halim-trailer-widget.php:7
+msgid "HaLim Trailer Widget"
+msgstr ""
+
+#: includes/widgets/halim-trailer-widget.php:10
+msgid "Display latest movie trailer"
+msgstr ""
+
+#: includes/widgets/halim-vertical-widget.php:8
+msgid "HaLim Vertical Widget"
+msgstr ""
+
+#: includes/widgets/halim-vertical-widget.php:35 includes/widgets/halim-vertical-widget.php:74
+#: pages/page-lastupdate.php:12
+msgid "Nhiều lượt xem"
+msgstr "Nhiều lượt xem"
+
+#: includes/widgets/halim-video-box-widget.php:7
+msgid "HaLim Video Box"
+msgstr ""
+
+#: includes/widgets/halim-video-box-widget.php:10
+msgid "Display list Videos"
+msgstr ""
+
+#: includes/widgets/halim-video-box-widget.php:18 includes/widgets/halim-video-box-widget.php:98
+msgctxt "halimthemes"
+msgid "Videos"
+msgstr ""
+
+#: includes/widgets/halim-video-box-widget.php:115
+msgid "Categories"
+msgstr ""
+
+#: includes/widgets/halim-widgets.php:4
+msgid "Manage Episode"
+msgstr "Quản lý tập phim"
+
+#: includes/widgets/halim-widgets.php:166
+msgid "Sidebar"
+msgstr ""
+
+#: includes/widgets/halim-widgets.php:198
+msgid "Default"
+msgstr ""
+
+#: includes/widgets/halim-widgets.php:208
+msgid "No sidebar --"
+msgstr ""
+
+#: pages/page-completed.php:11
+msgid "Completed Films"
+msgstr "Phim hoàn thành"
+
+#: pages/page-feature-film.php:13
+msgid "Feature films"
+msgstr "Phim nổi bật"
+
+#: pages/page-filter-movies.php:106
+msgid "Lists films"
+msgstr "Danh sách phim"
+
+#: pages/page-latest.php:12
+msgid "Mới nhất movies"
+msgstr "Phim mới nhất"
+
+#: templates/search-filter.php:34
+msgid "Filter movies"
+msgstr "Lọc phim"
+
+#: templates/single.full.php:1 templates/single-layout-1/single.watch.php:54
+#: templates/single-layout-2/single.watch.php:54
+msgid "Tự động chuyển tập"
+msgstr ""
+
+#: templates/single.full.php:1 templates/single-layout-1/single.watch.php:54
+#: templates/single-layout-2/single.watch.php:54
+msgid "On"
+msgstr ""
+
+#: templates/single.full.php:1 templates/single-layout-1/single.watch.php:68
+#: templates/single-layout-2/single.watch.php:68
+msgid "Share"
+msgstr "Chia sẻ"
+
+#: templates/single.full.php:1 templates/single-layout-1/single.watch.php:87
+#: templates/single-layout-2/single.watch.php:87
+msgid "Thêm vào tủ phim"
+msgstr "Thêm vào tủ phim"
+
+#: templates/single.full.php:1 templates/single-layout-1/single.info.php:136
+#: templates/single-layout-2/single.info.php:214
+msgid "Hiện thêm"
+msgstr "Hiển thị thêm"
+
+#: templates/single.full.php:1 templates/single-layout-1/single.info.php:136
+#: templates/single-layout-2/single.info.php:214
+msgid "Ẩn đi"
+msgstr "Rút gọn"
+
+#: templates/single-layout-1/single.info.php:54 templates/single-layout-2/single.info.php:47
+msgid "Watch"
+msgstr "Xem phim"
+
+#: templates/single-layout-1/single.info.php:60
+msgid "Quick Eps"
+msgstr "Chọn tập"
+
+#: templates/single-layout-1/single.info.php:72
+msgid "Click to Play"
+msgstr ""
+
+#: templates/single-layout-1/single.watch.php:23 templates/single-layout-2/single.watch.php:23
+msgid "Copyright infringement!"
+msgstr "Vi phạm bản quyền!"
+
+#: templates/single-layout-1/single.watch.php:95 templates/single-layout-2/single.info.php:207
+#: templates/single-layout-2/single.watch.php:95
+msgid "Nội dung"
+msgstr "Nội dung phim"
+
+#: templates/single-layout-2/single.info.php:43
+msgid "Add to favorite"
+msgstr "Thêm vào tủ phim"
+
+#: templates/single-layout-2/single.info.php:48
+msgid "Episodes"
+msgstr "Tập phim"
+
+#: templates/single-layout-2/single.info.php:51
+msgid "Copyright infringement"
+msgstr "Vi phạm bản quyền"
+
+#: templates/single-layout-2/single.info.php:77
+msgid "Now showing"
+msgstr "Đang phát"

@@ -1,0 +1,13 @@
+# HTTP Cookie File for spankbang.com by Genuinous @genuinous.
+# To download cookies for this tab click here, or download all cookies.
+# Usage Examples:
+#   1) wget -x --load-cookies cookies.txt "https://spankbang.com/3u8df/video/korean+bj+tester+001"
+#   2) curl --cookie cookies.txt "https://spankbang.com/3u8df/video/korean+bj+tester+001"
+#   3) aria2c --load-cookies cookies.txt "https://spankbang.com/3u8df/video/korean+bj+tester+001"
+#
+.spankbang.com	TRUE	/	TRUE	1586871490	__cfduid	dbf424f5209c372b8a40b89f0bd25476f1584279486
+.spankbang.com	TRUE	/	TRUE	1584538710	backend_version	master
+.spankbang.com	TRUE	/	TRUE	1584283112	ana_sid	00cc699279869fa5d5d53b053486df5554058fcc3836c75a92f2b96354730c4e
+.spankbang.com	TRUE	/	TRUE	1615815512	ana_vid	00cc699279869fa5d5d53b053486df5554058fcc3836c75a92f2b96354730c4e
+.spankbang.com	TRUE	/	FALSE	1615815508	auth	Ijg1NjYxMjI6Ojp0ZXN0ZXIwMDIi.t_xgXJ9qB8t-97X11JOzu-mOmwc
+.spankbang.com	TRUE	/	TRUE	1586957910	sb_session	.eJwVy0EKgCAQQNG7zLpFyaTWIVq2jdQRJNKwCYno7tnyf3gPLAflfY0UGUbOFzVg0xU53zDCPEHNM_uF00axHmG0Eb1TtrfGtYOSXYcoHGntpTUScfWCJLbVkQsc0o9KgfcDHUEg3Q.Xm4v0g.JhFlj8rVMc-MGZLlBFbSO0nq4sQ

@@ -1,0 +1,13 @@
+# HTTP Cookie File for zing.vn by Genuinous @genuinous.
+# To download cookies for this tab click here, or download all cookies.
+# Usage Examples:
+#   1) wget -x --load-cookies cookies.txt "https://tv.zing.vn/"
+#   2) curl --cookie cookies.txt "https://tv.zing.vn/"
+#   3) aria2c --load-cookies cookies.txt "https://tv.zing.vn/"
+#
+.zing.vn	TRUE	/	FALSE	1583816532	_zlang	vn
+tv.zing.vn	FALSE	/	FALSE	1583731032	atmpv	1
+.zing.vn	TRUE	/	FALSE	1646802132	__zi	2000.SSZzejyD0jSbZQcztqW0Wpl3fwMT51A99T7bjui67TSkrQluWmOVt2RHgBo30nMJ8DUWleS25PGm.1
+tv.zing.vn	FALSE	/	FALSE	1586322132	visitorID	2000.SSZzejyD0jSbZQcztqW0Wpl3fwMT51A99T7bjui67TSkrQluWmOVt2RHgBo30nMJ8DUWleS25PGm.1
+tv.zing.vn	FALSE	/	FALSE	1583989332	adtimaUserId	2000.SSZzejyD0jSbZQcztqW0Wpl3fwMT51A99T7bjui67TSkrQluWmOVt2RHgBo30nMJ8DUWleS25PGm.1
+.zing.vn	TRUE	/	FALSE	1646802135	fpsend	146641

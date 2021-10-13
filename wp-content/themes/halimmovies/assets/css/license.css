@@ -1,0 +1,171 @@
+#halim_dashboard_widget #halim-license-wrapper {
+    padding: 0;
+    border: none;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0;
+}
+#halim_dashboard_widget .wrap {
+    margin: 0
+}
+#halim_dashboard_widget #halim-license-wrapper > h2 {
+    display: none
+}
+#halim_dashboard_widget #halim-license-wrapper ul.list li span {
+
+width: 30%;
+}
+
+#halim-license-wrapper {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#halim-license-wrapper h2 {
+    margin: 0 0 30px;
+    font-size: 25px;
+    font-family: serif;
+    color: #5a5a5a;
+}
+#halim-license-wrapper h2 a {
+    float:  right;
+    font-size: 17px;
+    color:  #fff;
+    padding: 4px 10px;
+    margin-top: -5px;
+    background: #e67b73;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: .5s all;
+    border-bottom: 2px solid #b34b43;
+}
+#halim-license-wrapper h2 a:hover {
+
+background: #333;
+
+transition:  .5s all;
+}
+#halim-license-wrapper h2 a span {
+    font-size: 18px;
+}
+#halim-license-wrapper ul.list li {
+    background: #e8e8e8;
+    margin: 0;
+    font-family: monospace;
+    transition: .5s all;
+}
+#halim-license-wrapper ul.list li:hover {
+    background: #ccc;
+    transition: .5s all;
+}
+#halim-license-wrapper ul.list li:hover span {
+    background: #537290;
+    transition: .5s all;
+}
+#halim-license-wrapper ul.list li span {
+    margin-right: 15px;
+    display: inline-block;
+    width: 25%;
+    padding: 8px 15px;
+    background: #3c4c5d;
+    color: #fff;
+    text-align: right;
+    border-right: 5px solid #537290;
+}
+#halim-license-wrapper .container label {
+    background: #3c4c5d;
+    color: #fff;
+    padding: 4.5px 10px;
+    margin-right: -1px;
+    display: table-cell;
+    float: left;
+}
+#halim-license-wrapper form {
+    text-align: center;
+}
+#halim-license-wrapper .form-group {
+    display: inline-block;
+    margin: 20px 0;
+}
+#halim-license-wrapper .form-group p {
+    float: right;
+    padding: 0;
+    margin: 0 -2px 0;
+}
+
+#halim-license-wrapper .form-group p.submit input.button-primary {
+    box-shadow: none;
+    border-radius: 0;
+    border: 1px solid #0085ba;
+}
+#halim-license-wrapper .form-group p.submit input[name=deactivate_license] {
+    border-radius: 2px;
+    border-bottom: 2px solid #176584;
+}
+
+#halim-license-wrapper .form-input {
+    float: left;
+}
+#halim-license-wrapper .form-input input {
+    margin: 0;
+    width: 270px;
+}
+
+#halim-license-wrapper .form-input input[disabled]{
+    cursor: not-allowed;
+}
+
+#halim-license-wrapper .license_key_active,
+#halim-license-wrapper .license_key_pending,
+#halim-license-wrapper .license_key_expired,
+#halim-license-wrapper .license_key_blocked{
+    color: #fff;
+    padding: 3px 6px;
+    text-transform: uppercase;
+    border-radius: 3px!important;
+}
+#halim-license-wrapper .license_key_active {
+    background: #2ca036;
+}
+#halim-license-wrapper .license_key_pending {
+    background: #ff6024;
+}
+#halim-license-wrapper .license_key_expired {
+    background: #801d9e;
+}
+#halim-license-wrapper .license_key_blocked {
+    background: #c50303;
+}
+
+@media (max-width: 767px) {
+    #halim-license-wrapper {
+        width: 95%;
+        padding: 20px 10px;
+    }
+    #halim-license-wrapper h2 a {
+        margin-top: 10px;
+    }
+    .list {
+        padding-top: 20px;
+    }
+    #halim-license-wrapper ul.list li:nth-child(even) {
+        background: #ccc;
+    }
+    #halim-license-wrapper ul.list li:nth-child(even) span {
+       background: #cccccc;
+       text-align: left;
+       color: #333;
+       font-size: 11px;
+    }
+    #halim-license-wrapper ul.list li:nth-child(odd) span {
+       background: #293744;
+       text-align: left;
+       font-size: 11px;
+    }
+    #halim-license-wrapper ul.list li {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,797 @@
+.wrap-bootstrap {
+    background: #fff;
+    margin: 20px 0;
+    width: 98%;
+}
+.row {
+  display: flow-root;
+}
+/* ===========
+   Panels
+ =============*/
+.panel {
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+  border: none;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+.panel .panel-body {
+  padding: 20px;
+}
+/*.panel .panel-body p {
+  margin: 0px;
+}*/
+.panel .panel-body p + p {
+  margin-top: 15px;
+}
+.panel-heading {
+  border-radius: 0;
+  border: none !important;
+  padding: 10px 20px;
+}
+.panel-default > .panel-heading {
+  background-color: #fafafa;
+  border-bottom: none;
+  color: #797979;
+}
+.panel-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.panel-sub-title {
+  margin-bottom: 3px;
+  color: #CEE4FD;
+  margin-top: -3px;
+}
+.panel-footer {
+  background: #fafafa;
+  border-top: 0px;
+}
+.panel-default .panel-sub-title {
+  color: inherit;
+}
+.panel-color .panel-title {
+  color: #ffffff;
+}
+.panel-primary > .panel-heading {
+  background-color: #3bafda;
+}
+.panel-inverse > .panel-heading {
+  background-color: #4c5667;
+}
+.panel-border {
+  border-radius: 3px;
+}
+.panel-border .panel-heading {
+  background-color: #ffffff;
+  border-top: 3px solid #ccc !important;
+  border-radius: 3px;
+  padding: 10px 20px 0px;
+}
+.panel-border .panel-body {
+  padding: 15px 20px 20px 20px;
+}
+.panel-border.panel-primary .panel-heading {
+  border-color: #3bafda !important;
+  color: #3bafda !important;
+}
+
+#halimmovies-player-data .add_new_ep {
+    background: #ed6f6f;
+    transition: .6s all;
+    border-radius: 3px;
+    line-height: 23px;
+    padding: 4px 15px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+#halimmovies-player-data .add_new_ep:hover, .halimmovies_episodes .expand-list-subs:hover, .halimmovies_episodes .expand-list-sv:hover, .halimmovies_episodes .add_new_listsv:hover {
+  background: #4c9ce4;
+  transition: .6s all;
+}
+#halimmovies-player-data .add_new_ep .dashicons-plus {
+  font-size: 14px;
+  position: absolute;
+  left: 5px;
+  top: 9px;
+}
+#halimmovies-player-data .add_new_ep span + span {
+  font-size: 12px;
+  float: right;
+  margin-left: 12px;
+}
+.halimmovies_episodes .add_new_sub, .halimmovies_episodes .add_new_listsv {
+    background: #70c145;
+    transition: .5s all;
+    padding: 4.5px 6px 6px;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    position:  absolute;
+    right: 20px;
+    top: -30px;
+}
+.halimmovies_episodes .add_new_sub {
+
+right: 0;
+}
+.halimmovies_episodes .add_new_listsv {
+  background: #dc5d10;
+}
+.halimmovies_episodes .add_new_sub:hover{
+    background: #316b14;
+    transition: .5s all;
+}
+
+.halimmovies_episodes .expand-list-sv {
+    background: #2f2f2f;
+    transition: .5s all;
+    padding: 4.5px 13px 6px 6px;
+    color: #fff;
+    font-size: 11px;
+    position: absolute;
+    right: 10px;
+    top: 39px;
+    /* border-radius: 3px; */
+    cursor: pointer;
+}
+.halimmovies_episodes .expand-list-subs {
+     background: rgb(224, 157, 54);
+     transition: .5s all;
+     padding: 4.5px 13px 6px 6px;
+     color: #fff;
+     font-size: 11px;
+     position: absolute;
+     right: 82px;
+     top: 39px;
+     /* border-radius: 3px; */
+     cursor: pointer;
+}
+
+.halimmovies_episodes {
+    border: 1px solid #efeeee;
+    padding: 10px;
+    /* padding-bottom: 30px; */
+    display: flow-root;
+    position: relative;
+    /* cursor: move; */
+    overflow: hidden;
+    transition: all .5s;
+}
+.halimmovies_episodes:hover {
+  transition: all .5s;
+  background: #23a3de!important;
+  cursor: move;
+}
+.halimmovies_episodes:nth-child(odd) {
+    background: white;
+}
+
+.halimmovies_episodes:nth-child(even) {
+    background: #f1f1f1;
+}
+
+.halimmovies_episodes.episodes.row.x {
+    padding-bottom: 30px;
+}
+.halimmovies_episodes.episodes.row.x:hover {
+    background: #fff!important;
+}
+.list-episode-item .del_ep {
+    padding: 1px;
+    height: 19px;
+    top: 14px!important;
+    right: 20px !important;
+}
+.halimmovies_episodes .del_ep {
+    background: #fff;
+    transition: .5s all;
+    color: #d61919;
+    position: absolute;
+    cursor: pointer;
+    right: 5px;
+    top: 5px;
+    padding: 3px;
+}
+
+.halimmovies_episodes .del_ep:hover{
+  background-color: #ffcece;
+  transition: .5s all;
+  border-radius: 50%;
+}
+
+.halimmovies_episodes:hover .del_ep {
+  display:block;
+}
+.halimmovies_subs, .halimmovies_subs span {
+    position: relative;
+}
+
+.halimmovies_subs .del_sub {
+    background: #ff6c6c;
+    transition: .5s all;
+    padding: 6px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: -6px;
+    right: -27px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.halimmovies_subs .del_sub:hover{
+    background: #d41b1b;
+    transition: .5s all;
+}
+
+#halimmovies-form input{
+  height: 30px !important;
+  border-radius: 2px !important;
+  margin-top: 5px !important;
+}
+#halimmovies-form a{
+  text-decoration: none;
+}
+#halimmovies-form .nav-tabs a{font-size: 13px;padding: 10px;}
+#halimmovies-form .nav-tabs a.add-server{
+   font-size: 30px;
+    padding: 0 5px;
+    border: none !important;
+}
+.videoapi-title h2 {
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    padding: 0 !important;
+    margin: 10px 0 !important;
+  }
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  .col-lg-11 {
+    width: 91.66666667%;
+  }
+  .col-lg-10 {
+    width: 83.33333333%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-8 {
+    width: 66.66666667%;
+  }
+  .col-lg-7 {
+    width: 58.33333333%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-5 {
+    width: 41.66666667%;
+  }
+  .col-lg-4 {
+    width: 33.33333333%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-2 {
+    width: 16.66666667%;
+  }
+  .col-lg-1 {
+    width: 8.33333333%;
+  }
+}
+.wrap-bootstrap label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.wrap-bootstrap pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.wrap-bootstrap .label {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 83%;
+    font-weight: bold;
+    line-height: 2.3;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.label-default {
+    background-color: #777;
+}
+.card-box h4{margin-bottom: 0px !important;font-size: 16px}
+.card-box h4{font-size: 17px !important}
+.form-control {
+  display: block;
+    width: 100%;
+    height: 32px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    background-image: none;
+   -moz-border-radius: 2px;
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    background-color: #fafafa;
+    border-radius: 2px;
+    border: 1px solid #eeeeee;
+    box-shadow: none;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+}
+.form-control:focus {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  box-shadow: none;
+}
+.label {
+  color: #ffffff !important;
+}
+.label-primary {
+  background-color: #3bafda;
+}
+.label-success {
+  background-color: #00b19d;
+}
+.label-info {
+  background-color: #3ddcf7;
+}
+.label-warning {
+  background-color: #ffaa00;
+}
+.label-danger {
+  background-color: #ef5350;
+}
+.label-purple {
+  background-color: #7266ba;
+}
+.label-pink {
+  background-color: #f76397;
+}
+.label-dark {
+  background: #4f595b;
+}
+.label-inverse {
+  background-color: #4c5667;
+}
+.card-box {
+  padding: 20px;
+  border: 1px solid rgba(54, 64, 74, 0.08);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-clip: padding-box;
+  margin-bottom: 20px;
+  background-color: #fff;
+  margin-right: 20px;
+}
+.clear{clear:both}
+.btn-primary {
+  color: #ffffff !important;
+  background-color: #32373c !important;
+  border: 1px solid #32373c !important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.open > .dropdown-toggle.btn-primary {
+  background-color: #ed6f6f !important;
+  border: 1px solid #ed6f6f !important;
+}
+.nav-tabs > li {
+    position:relative;
+    float: left;
+    margin-bottom: -4px;
+    display: block;
+    line-height: 20px;
+}
+.nav-tabs > li > a {
+    display:inline-block;
+}
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+    color: #ffffff !important;
+    cursor: default !important;
+    background-color: #5da239 !important;
+    border: none;
+    box-shadow: none;
+}
+.nav-tabs > li > span {
+    display:none;
+    cursor:pointer;
+    position:absolute;
+    right: 2px;
+    top: -6px;
+    color: white;
+    line-height: 16px;
+    padding: 4px 8px 0 8px;
+    background: #e26565;
+}
+.nav-tabs > li:hover > span, .nav-tabs > li.active span {
+    display: inline-block;
+}
+
+.tab-content>.tab-pane {
+    display: none;
+}
+.tab-content>.active {
+    display: block;
+}
+.nav-tabs > li > a {
+  margin-right: 2px;
+  line-height: 1.42857143;
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+.nav-tabs > li > a:hover {
+  border-color: #eee #eee #ddd;
+}
+.nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.nav-tabs.nav-justified > li {
+  float: none;
+}
+.nav-tabs.nav-justified > li > a {
+  margin-bottom: 5px;
+  text-align: center;
+}
+.nav-tabs.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  overflow: hidden;
+  border-bottom: 3px solid #5da239;
+}
+.nav > li {
+  position: relative;
+  display: block;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  border-bottom: none;
+  box-shadow: none;
+}
+.nav > li.disabled > a {
+  color: #777;
+}
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
+  color: #777;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+.form-group{/* margin-bottom:10px; */}
+.list_eps {
+    max-height: 350px;
+    overflow-x: hidden;
+    padding: 20px 7px;
+    border: 1px dashed #c7c7c7;
+    border-right: none;
+    margin-bottom: 15px;
+}
+
+#_halim_metabox_options .cs-fieldset {
+    position: relative;
+}
+#_halim_metabox_options .cs-fieldset #fetch-btn {
+    background: #7e8993;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    transition: .5s all;
+}
+#_halim_metabox_options .cs-fieldset #fetch-btn:hover {
+  background: #0085ba;
+  transition:  .5s all;
+}
+
+#_halim_metabox_options .cs-framework .cs-nav-background img {
+    width: 208px;
+    height: 272px;
+    position: absolute;
+    top: 153px;
+    left: 8px;
+}
+#cs-tab-section_1 .cs-element, #cs-tab-section_3 .cs-element {
+    padding: 15px;
+}
+
+#cs-tab-section_2 .cs-element {
+    padding: 16px;
+}
+
+#cs-tab-section_3 .cs-fieldset {
+    margin: 0;
+}
+#halimmovies-form .col-lg-7 input {
+    width: 80%!important;
+}
+
+
+[role="button"] {
+  cursor: pointer;
+}
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+.fade.in {
+  opacity: 1;
+}
+.collapse {
+  display: none;
+  margin-top: 35px;
+  position: relative;
+}
+.collapse.in {
+  display: block;
+}
+tr.collapse.in {
+  display: table-row;
+}
+tbody.collapse.in {
+  display: table-row-group;
+}
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-property: height, visibility;
+  -o-transition-property: height, visibility;
+     transition-property: height, visibility;
+  -webkit-transition-duration: 0.35s;
+  -o-transition-duration: 0.35s;
+     transition-duration: 0.35s;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+     transition-timing-function: ease;
+}
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pull-right {
+  float: right !important;
+}
+.pull-left {
+  float: left !important;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  /* display: none !important; */
+}
+.affix {
+  position: fixed;
+}
+.halimmovies_listsv {
+    position: relative;
+}
+.halimmovies_listsv label {
+
+border: 1px solid #ddd;
+
+padding: 5px 8px;
+
+display: none;
+}
+a.del_listsv {
+    display: inline-block;
+    cursor: pointer;
+    background: #0073aa;
+    padding: 5px;
+    color: #fff;
+    position:  absolute;
+    top: 5px;
+    right: 20px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+a.del_listsv:hover {
+  background-color: #d81919;
+}
+
+.rotate-right {
+  -webkit-transform: rotate(269deg) scale(1) skew(0deg) translate(0px);
+}
+.form-group.col-lg-12.list-subtitle {
+    margin-bottom: 5px;
+    background: #f1f1f1;
+    width: 67.44%;
+    margin-top: 10px;
+    padding: 10px 15px 30px;
+    border-radius: 3px;
+    overflow:  hidden;
+}
+.listsub {
+    margin: 35px 10px 0;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+span.sortable {
+    position: absolute;
+    right: 32px;
+    top: 5px;
+    color: #00a0d2;
+    cursor: move;
+    background: #fff;
+}
+.list-server-sortable .sortable{
+    position: absolute;
+    right: 70px;
+    top: 12px;
+    color: #00a0d2;
+    cursor: move;
+    padding: 5px 5px;
+}
+.listsub .sortable{
+    position: absolute;
+    right: 8px;
+    top: 0;
+    color: #00a0d2;
+    cursor: move;
+    background: #fff;
+}
+.list-server {
+    overflow: hidden;
+}
+.list-server-sortable {
+    position: relative;
+}
+.halimmovies_listsv select {
+    width: 10%;
+    margin-top: -4px;
+    height: 30px;
+}
+.list-server-sortable span.halim-server-name {
+    float: left;
+    margin-top: 10px;
+}
+span.halim-episode-saving {
+    float: right;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #ffbb00, #e43603, #ff6290, #ff5000);
+    box-shadow: 0px 2px 4px 0 rgba(229, 66, 10, 0.75);
+    cursor: pointer;
+}
+
+span.halim-episode-saving:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.halim-edit-server-name {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #f1f1f1;
+    margin-top: 15px;
+    padding: 15px 0 0;
+}
+.halim-edit-server-name label {
+    margin-right: 5px;
+}
+#halimmovies_listsv span.sortable {
+    top: 2px;
+    right: 65px;
+}
+
+.halim-episode-manager {
+
+}
+
+.halim-episode-manager .halimmovies_episodes:hover {
+  background: none!important
+}
+
+.halim-episode-manager .halimmovies_episodes .expand-list-subs,
+.halim-episode-manager .halimmovies_episodes .expand-list-sv {
+  top: 27.5px;
+  padding: 4.6px 13px 6px 6px;
+}
+.halim-episode-manager .form-group.col-lg-12.list-subtitle {
+  padding: 0;
+}
+
+.halim-episode-manager .halimmovies_episodes {
+  padding: 3px 15px;
+}
+.halim-episode-manager .halimmovies_episodes .del_ep {
+  top: 1px;
+  right: 10px;
+}

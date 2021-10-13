@@ -1,0 +1,144 @@
+<?php
+function curlfetch($url, $post=''){	
+	$ch = @curl_init();
+	curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $post);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
+	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+	curl_setopt($ch, CURLOPT_TIMEOUT, 60);
+	curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 60);
+	curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
+	$page = curl_exec($ch);
+	curl_close($ch);
+	return $page;
+}
+// Do not remove
+add_action( 'wp_enqueue_scripts', 'halim_child_theme_enqueue_styles' );
+function halim_child_theme_enqueue_styles() {
+    wp_deregister_style('halimmovie-style');
+    wp_enqueue_style( 'halimmovie-style', HALIM_THEME_URI . '/style.css', array(), wp_get_theme('halimmovies')->get('Version') );
+    wp_enqueue_style( 'halimmovie-child-style',
+        get_stylesheet_directory_uri() . '/style.css',
+        array( 'halimmovie-style' ),
+        wp_get_theme('halimmovies')->get('Version')
+    );
+}
+
+require_once 'custom-player.php';
+
+add_filter( 'halim_custom_player_types', function($data)
+{
+    // Nếu Episode Type là "google-drive" thì thực thi code
+    if($data->episode_type == 'kyun')
+    {
+      // Khai báo kiểu cho player, với player_type = custom_api thì sources get ra sẽ chạy qua jwplayer mặc định trong theme
+        $data->player_type = 'custom_iframe';
+        $drive_id = HALIMHelper::getDriveId($data->link); // Lấy Drive ID từ link
+        $curl_test = HALIMHelper::cURL('https://animetvn.kyunkyun.net/api?key=kyunkyun&drive='.$drive_id);
+        $api = json_decode($curl_test);
+        if($api->status == "done" or $api->status == "processing")
+        {
+            $embed_url = $api->embed;
+            $data->sources = '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="'.$embed_url.'" allowfullscreen></iframe></div>';
+        }
+        if($api->status == "unavailable")
+    
+        {
+            $embed_url = "https://video.kyunkyun.net/stream?id=5f488b5c47a9c5451977ca50";
+            $data->sources = '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive" src="'.$embed_url.'" ></div>';
+        }
+    }
+    if($data->episode_type == 'hydrax' or $data->episode_type == 'kyunkyun') // thay thế hydrax-iframe bằng slug episode type tự định nghĩa
+    {
+        $data->player_type = 'custom_iframe';
+        $id = HALIMHelper::getDriveId($data->link);
+        $api_key = 'e4ebc346d651c655442b3461ef48d8eb';
+        $results = HALIMHelper::cURL('https://api.hydrax.net/'.$api_key.'/drive/'.$id);
+        $slug = json_decode($results, true);
+        $sub = explode('|', $data->subtitle)[0];
+        $label = explode('|', $data->sublabel)[0];
+        $embed_url = '//playhydrax.com/?v='.$slug['slug'].'&sub='.$sub.'&sub-lang='.$label;
+        $data->sources = '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="'.$embed_url.'" allowfullscreen></iframe></div>';
+    }    
+    if($data->episode_type == 'backup') // thay thế hydrax-iframe bằng slug episode type tự định nghĩa
+    {
+        $data->player_type = 'custom_iframe';
+        $id = HALIMHelper::getDriveId($data->link);
+            $domain = "gdriveplayer.io";
+            $api_key = "sfhasgi783dhq92t7";
+            $datas = array(
+                'link' => $id,
+                'newserver' => "v-3",
+                'api_key' => $api_key,
+                'domain' => $domain,
+                'button' => False,
+            );
+            $data = json_encode($datas);
+            $data = str_replace('\/', '/', $data);
+            $api_key = "sfhasgi783dhq92t7";
+            $posts = "data=".urlencode($data)."&key=".$api_key;
+            $domain = "gdriveplayer.io";
+            $posts = curlfetch("http://".$domain."/listener.php",  $posts);
+            $fix = $posts;
+            $link = explode('src="', $fix)[1];
+            $link = explode('"', $link)[0];
+            $link = urlencode($link);
+            $embed_url = "wp-content/plugins/gdriveplayer/player.php?data=".$link;
+            $data->sources = '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="'.$embed_url.'" allowfullscreen></iframe></div>';
+        }
+        if($data->episode_type ='best') // thay thế hydrax-api bằng slug episode type tự định nghĩa
+        {
+            // trường hợp getlink m3u8 thông qua api của hydrax
+            $data->player_type = 'custom_iframe';
+            $api_key = '6263c6845940fe5a4551c9beae41f090';
+            $driveId = HALIMHelper::getDriveId($data->link); // Bóc tách lấy ID từ link drive
+            $api = HALIMHelper::cURL('https://beststream.io/api/get?driveid='.$driveId.'&token='.$api_key); // Truyền Drive ID vào server stream đồng thời Curl đến server stream để lấy m3u8 id
+            $api = json_decode($api);
+            if($api->status == 1)
+            {
+                $embed_url = $api->iframe;
+                $data->sources = '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="'.$embed_url.'" allowfullscreen></iframe></div>';
+
+            }
+            if($api->status == 2)
+            {
+                $data->sources = '<div class="embed-responsive embed-responsive-16by9"><h1>Video Not Ready!</h1></div>';
+    
+            }
+
+            else
+            {
+                // Nếu status == false thì tiến hành thêm Drive ID lên server stream
+                $api = HALIMHelper::cURL('https://beststream.io/api/add?driveid='.$driveId.'&token='.$api_key); // Truyền Drive ID vào server stream đồng thời Curl đến server stream để lấy m3u8 id
+                $data->sources = '<div class="embed-responsive embed-responsive-16by9"><h1>Video Not Ready!</h1></div>';
+            
+            }
+        }
+        if($data->episode_type == 'icq')
+        {
+          // Khai báo kiểu cho player, với player_type = custom_api thì sources get ra sẽ chạy qua jwplayer mặc định trong theme
+            $data->player_type = 'custom_iframe';
+            $drive_id = HALIMHelper::getDriveId($data->link); // Lấy Drive ID từ link
+            $curl_test = HALIMHelper::cURL('https://animetvn.kyunkyun.net/api?key=kyunkyun&drive='.$drive_id);
+            $api = json_decode($curl_test);
+            if($api->status == "done" or $api->status == "processing")
+            {
+                $embed_url = $api->embed;
+                $data->sources = '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="'.$embed_url.'" allowfullscreen></iframe></div>';
+            }
+            if($api->status == "unavailable")
+        
+            {
+                $embed_url = "https://video.kyunkyun.net/stream?id=5f488b5c47a9c5451977ca50";
+                $data->sources = '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive" src="'.$embed_url.'" ></div>';
+            }
+        }
+
+
+    return $data;
+}, 10, 2);
+
+
+
+

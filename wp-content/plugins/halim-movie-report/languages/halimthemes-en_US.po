@@ -1,0 +1,37 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Language: en_US\n"
+"X-Generator: Poedit 1.8.12\n"
+
+#. Text in echo
+#: halim-movie-report/main.php:43 halim-movie-report/main.php:66
+msgid "Báo lỗi"
+msgstr "Report"
+
+#. Text in echo
+#: halim-movie-report/main.php:36
+msgid "Cảm ơn bạn đã gửi thông báo lỗi. Chúng tôi sẽ tiến hành sửa lỗi trong thời gian sớm nhất có thể."
+msgstr "Thank you for sending error messages. We will fix the problem in the shortest time possible."
+
+#. Text in echo
+#: halim-movie-report/main.php:55
+msgid "Nội dung *"
+msgstr "Your message*"
+
+#. Text in echo
+#: halim-movie-report/main.php:51
+msgid "Tên bạn *"
+msgstr "Name *"
+
+#. Text in echo
+#: halim-movie-report/main.php:35
+msgid "Vui lòng điền đầy đủ thông tin được đánh dấu (*)"
+msgstr "Your name and message is required"

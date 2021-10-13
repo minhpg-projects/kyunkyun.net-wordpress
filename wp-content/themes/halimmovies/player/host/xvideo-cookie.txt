@@ -1,0 +1,10 @@
+# HTTP Cookie File downloaded with cookies.txt by Genuinous @genuinous
+# This file can be used by wget, curl, aria2c and other standard compliant tools.
+# Usage Examples:
+#   1) wget -x --load-cookies cookies.txt "https://www.xvideos.com/video49957885/chinese_baby_girl_nice_body_dance_strip_nude_on_live_stream_"
+#   2) curl --cookie cookies.txt "https://www.xvideos.com/video49957885/chinese_baby_girl_nice_body_dance_strip_nude_on_live_stream_"
+#   3) aria2c --load-cookies cookies.txt "https://www.xvideos.com/video49957885/chinese_baby_girl_nice_body_dance_strip_nude_on_live_stream_"
+#
+.xvideos.com	TRUE	/	FALSE	1585571335	session_token	f6fd0ba70c9a6000FqPM2leOIycMW8XQrhy2oL1YwQxf3-0Kewm0h8ToWJVp4AOTXQSuQDeSvttmFtPXsHC42TupWX_moziiaZOmfreTIDZ3qdFs4EVhspZ2Qw2P80ULfvOEhaqSVo9Unrj87MHwMEkTS5tbkkpp6iyrjwliaw3AtmVB6aCe38-rvaTfAg-Pqf08MVCcGoexKRBtQkkvXYiv-nXc154A45mPnQ%3D%3D
+www.xvideos.com	FALSE	/	FALSE	1585571339	html5_pref	%7B%22SQ%22%3Afalse%2C%22MUTE%22%3Afalse%2C%22VOLUME%22%3A1%2C%22FORCENOPICTURE%22%3Afalse%2C%22FORCENOAUTOBUFFER%22%3Afalse%2C%22FORCENATIVEHLS%22%3Afalse%2C%22PLAUTOPLAY%22%3Atrue%2C%22CHROMECAST%22%3Afalse%2C%22EXPANDED%22%3Afalse%2C%22FORCENOLOOP%22%3Afalse%7D
+.xvideos.com	TRUE	/	FALSE	1590755339	last_views	%5B%2249957885-1582979333%22%5D

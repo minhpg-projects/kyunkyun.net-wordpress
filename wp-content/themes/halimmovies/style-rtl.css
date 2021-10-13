@@ -1,0 +1,17 @@
+/*!
+ Theme Name:   HaLimMovie
+ Theme URI:    http://halimthemes.com
+ Description:  HaLimMovies is one of the best wordpress theme for movies and tv-series content
+ Author:       HoangHa
+ Author URI:   http://hoangha.net
+ Version:      5.4.2
+ Tags:         dark, two-columns, multi-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  halimthemes
+*/
+
+body.halimthemes {
+	direction: rtl;
+  	unicode-bidi: embed;
+}
+
+/* Custom RTL CSS */
